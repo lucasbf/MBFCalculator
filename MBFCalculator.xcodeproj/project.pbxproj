@@ -54,14 +54,22 @@
 		A4356EB61DBB96F1006ECDF6 /* MBFCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				A4356EB71DBB96F1006ECDF6 /* AppDelegate.swift */,
+				A4B857981DBB982C00AE6A1D /* Supporting Files */,
 				A4356EB91DBB96F1006ECDF6 /* ViewController.swift */,
 				A4356EBB1DBB96F1006ECDF6 /* Main.storyboard */,
+			);
+			path = MBFCalculator;
+			sourceTree = "<group>";
+		};
+		A4B857981DBB982C00AE6A1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4356EB71DBB96F1006ECDF6 /* AppDelegate.swift */,
 				A4356EBE1DBB96F1006ECDF6 /* Assets.xcassets */,
 				A4356EC01DBB96F1006ECDF6 /* LaunchScreen.storyboard */,
 				A4356EC31DBB96F1006ECDF6 /* Info.plist */,
 			);
-			path = MBFCalculator;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +308,7 @@
 				A4356EC81DBB96F2006ECDF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
